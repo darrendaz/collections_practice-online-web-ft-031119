@@ -49,6 +49,6 @@ end
 
 def add_s(array)
   array.each_with_index{|word, index|
-    
+    word + "s" unless index == 2
   }
 end
